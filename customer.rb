@@ -20,7 +20,11 @@ class Customer
     return @balance -= 20
   end  
 
-  
+  def new_customer_balance(price)
+    return @balance - price
+  end  
+
+
 
 
 

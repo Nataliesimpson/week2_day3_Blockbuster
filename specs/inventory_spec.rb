@@ -24,9 +24,9 @@ class TestInventory < MiniTest::Test
     assert_equal(true, @inventory.video_in_stock?(@video_tape4))
   end  
 
-  # def pick_a_random_film_for_no_reason
-  #   assert_equal("Waterworld", @inventory.pick_random_video)
-  # end
+ 
+
+
 
 
 

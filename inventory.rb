@@ -25,8 +25,6 @@ class Inventory
     end
   end
 
-  # def pick_random_video
-  #   random_video = @inventory[srand(0..@inventory.length)].name
-  # end
+
 
 end

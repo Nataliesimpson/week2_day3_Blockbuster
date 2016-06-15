@@ -8,9 +8,6 @@ attr_reader :customer, :inventory
   end
   
 
-  # def customer_can_rent_video
-    
-  # end
 
 
 end    

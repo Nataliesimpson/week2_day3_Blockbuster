@@ -1,5 +1,7 @@
 require('minitest/autorun')
 require_relative('../customer.rb')
+require_relative('../video_tape.rb')
+require_relative('../inventory.rb')
 
 class TestCustomer < MiniTest::Test
 
@@ -30,7 +32,14 @@ class TestCustomer < MiniTest::Test
     assert_equal(20, @customer_3.subtract_from_customer_balance)
   end   
 
- 
+  def test_new_customer_balance
+    price = 5
+    assert_equal(15, @customer_1.new_customer_balance(price))  
+  end 
+
+  
+
+
 
 
 end
